@@ -1,0 +1,128 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.0.32112.339
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution items", "Solution items", "{555E5E19-0BB6-4C5A-BAB1-D5C6F02E65F5}"
+	ProjectSection(SolutionItems) = preProject
+		.gitignore = .gitignore
+		README.md = README.md
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{7F3D88BB-D8C8-42AC-9FD8-39C2D36A9E68}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "ARM templates", "ARM templates", "{84037F07-75B1-47A1-B2B9-96ECF7B8259D}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Services", "Services", "{C03A264E-226C-4C15-A86E-337AD2ED7769}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Banking", "Banking", "{79883D43-82FA-410E-9365-9326CC228543}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SpaceBank.Microservices.Banking.Api", "src\Services\Banking\SpaceBank.Microservices.Banking.Api\SpaceBank.Microservices.Banking.Api.csproj", "{452AC773-6E3A-4976-B888-DE18A7B61FF9}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SpaceBank.Microservices.Banking.Application", "src\Services\Banking\SpaceBank.Microservices.Banking.Application\SpaceBank.Microservices.Banking.Application.csproj", "{A6CEF9A7-802B-46AA-897C-4B99BA6F5C1C}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SpaceBank.Microservices.Banking.Infra", "src\Services\Banking\SpaceBank.Microservices.Banking.Infra\SpaceBank.Microservices.Banking.Infra.csproj", "{0F5B9307-7FF3-47D6-B3D8-571A6C62B509}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SpaceBank.Microservices.Banking.Domain", "src\Services\Banking\SpaceBank.Microservices.Banking.Domain\SpaceBank.Microservices.Banking.Domain.csproj", "{5BD2D2F4-7FD3-4CBE-83FC-77E6CA60FA82}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "EventBus", "EventBus", "{9FFB6397-33A9-41C9-BB48-E075FD942D09}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "IoC", "IoC", "{D49FF443-2F7A-46D3-B93E-63065EBAA285}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SpaceBank.Microservices.IoC", "src\IoC\SpaceBank.Microservices.IoC\SpaceBank.Microservices.IoC.csproj", "{D0243238-B1F4-44DF-B6A4-593FC1E7D6A2}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SpaceBank.Microservices.EventBus.Domain", "src\EventBus\SpaceBank.Microservices.EventBus.Domain\SpaceBank.Microservices.EventBus.Domain.csproj", "{591A50E1-AB33-4645-8582-8ED888E4656A}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SpaceBank.Microservices.EventBus.RabbitMQ", "src\EventBus\SpaceBank.Microservices.EventBus.RabbitMQ\SpaceBank.Microservices.EventBus.RabbitMQ.csproj", "{0B4E7425-636A-42C0-A8C8-392DF6F27039}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Transfer", "Transfer", "{51E484BA-7E08-4975-9311-A36B27B56CB1}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SpaceBank.Microservices.Transfer.Api", "src\Services\Transfer\SpaceBank.Microservices.Transfer.Api\SpaceBank.Microservices.Transfer.Api.csproj", "{01DF7BFB-E36D-4F2E-AC3E-8445160FC077}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SpaceBank.Microservices.Transfer.Application", "src\Services\Transfer\SpaceBank.Microservices.Transfer.Application\SpaceBank.Microservices.Transfer.Application.csproj", "{70C67A0C-DEC6-4219-9B13-99E844755F4E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SpaceBank.Microservices.Transfer.Domain", "src\Services\Transfer\SpaceBank.Microservices.Transfer.Domain\SpaceBank.Microservices.Transfer.Domain.csproj", "{B620168D-0003-4156-932E-6B0745DDFF67}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SpaceBank.Microservices.Transfer.Infra", "src\Services\Transfer\SpaceBank.Microservices.Transfer.Infra\SpaceBank.Microservices.Transfer.Infra.csproj", "{00B19367-B001-401B-A622-9325A11ED356}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "ApiGateway", "ApiGateway", "{6EFEDFA9-8D3C-4B73-9AC8-F5CE2BD6D83F}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Kubernetes", "Kubernetes", "{7A445D9E-2F92-49C4-9804-9C2A50629A5A}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{452AC773-6E3A-4976-B888-DE18A7B61FF9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{452AC773-6E3A-4976-B888-DE18A7B61FF9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{452AC773-6E3A-4976-B888-DE18A7B61FF9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{452AC773-6E3A-4976-B888-DE18A7B61FF9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A6CEF9A7-802B-46AA-897C-4B99BA6F5C1C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A6CEF9A7-802B-46AA-897C-4B99BA6F5C1C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A6CEF9A7-802B-46AA-897C-4B99BA6F5C1C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A6CEF9A7-802B-46AA-897C-4B99BA6F5C1C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0F5B9307-7FF3-47D6-B3D8-571A6C62B509}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0F5B9307-7FF3-47D6-B3D8-571A6C62B509}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0F5B9307-7FF3-47D6-B3D8-571A6C62B509}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0F5B9307-7FF3-47D6-B3D8-571A6C62B509}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5BD2D2F4-7FD3-4CBE-83FC-77E6CA60FA82}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5BD2D2F4-7FD3-4CBE-83FC-77E6CA60FA82}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5BD2D2F4-7FD3-4CBE-83FC-77E6CA60FA82}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5BD2D2F4-7FD3-4CBE-83FC-77E6CA60FA82}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D0243238-B1F4-44DF-B6A4-593FC1E7D6A2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D0243238-B1F4-44DF-B6A4-593FC1E7D6A2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D0243238-B1F4-44DF-B6A4-593FC1E7D6A2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D0243238-B1F4-44DF-B6A4-593FC1E7D6A2}.Release|Any CPU.Build.0 = Release|Any CPU
+		{591A50E1-AB33-4645-8582-8ED888E4656A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{591A50E1-AB33-4645-8582-8ED888E4656A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{591A50E1-AB33-4645-8582-8ED888E4656A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{591A50E1-AB33-4645-8582-8ED888E4656A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0B4E7425-636A-42C0-A8C8-392DF6F27039}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0B4E7425-636A-42C0-A8C8-392DF6F27039}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0B4E7425-636A-42C0-A8C8-392DF6F27039}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0B4E7425-636A-42C0-A8C8-392DF6F27039}.Release|Any CPU.Build.0 = Release|Any CPU
+		{01DF7BFB-E36D-4F2E-AC3E-8445160FC077}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{01DF7BFB-E36D-4F2E-AC3E-8445160FC077}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{01DF7BFB-E36D-4F2E-AC3E-8445160FC077}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{01DF7BFB-E36D-4F2E-AC3E-8445160FC077}.Release|Any CPU.Build.0 = Release|Any CPU
+		{70C67A0C-DEC6-4219-9B13-99E844755F4E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{70C67A0C-DEC6-4219-9B13-99E844755F4E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{70C67A0C-DEC6-4219-9B13-99E844755F4E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{70C67A0C-DEC6-4219-9B13-99E844755F4E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B620168D-0003-4156-932E-6B0745DDFF67}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B620168D-0003-4156-932E-6B0745DDFF67}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B620168D-0003-4156-932E-6B0745DDFF67}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B620168D-0003-4156-932E-6B0745DDFF67}.Release|Any CPU.Build.0 = Release|Any CPU
+		{00B19367-B001-401B-A622-9325A11ED356}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{00B19367-B001-401B-A622-9325A11ED356}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{00B19367-B001-401B-A622-9325A11ED356}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{00B19367-B001-401B-A622-9325A11ED356}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{C03A264E-226C-4C15-A86E-337AD2ED7769} = {7F3D88BB-D8C8-42AC-9FD8-39C2D36A9E68}
+		{79883D43-82FA-410E-9365-9326CC228543} = {C03A264E-226C-4C15-A86E-337AD2ED7769}
+		{452AC773-6E3A-4976-B888-DE18A7B61FF9} = {79883D43-82FA-410E-9365-9326CC228543}
+		{A6CEF9A7-802B-46AA-897C-4B99BA6F5C1C} = {79883D43-82FA-410E-9365-9326CC228543}
+		{0F5B9307-7FF3-47D6-B3D8-571A6C62B509} = {79883D43-82FA-410E-9365-9326CC228543}
+		{5BD2D2F4-7FD3-4CBE-83FC-77E6CA60FA82} = {79883D43-82FA-410E-9365-9326CC228543}
+		{9FFB6397-33A9-41C9-BB48-E075FD942D09} = {7F3D88BB-D8C8-42AC-9FD8-39C2D36A9E68}
+		{D49FF443-2F7A-46D3-B93E-63065EBAA285} = {7F3D88BB-D8C8-42AC-9FD8-39C2D36A9E68}
+		{D0243238-B1F4-44DF-B6A4-593FC1E7D6A2} = {D49FF443-2F7A-46D3-B93E-63065EBAA285}
+		{591A50E1-AB33-4645-8582-8ED888E4656A} = {9FFB6397-33A9-41C9-BB48-E075FD942D09}
+		{0B4E7425-636A-42C0-A8C8-392DF6F27039} = {9FFB6397-33A9-41C9-BB48-E075FD942D09}
+		{51E484BA-7E08-4975-9311-A36B27B56CB1} = {C03A264E-226C-4C15-A86E-337AD2ED7769}
+		{01DF7BFB-E36D-4F2E-AC3E-8445160FC077} = {51E484BA-7E08-4975-9311-A36B27B56CB1}
+		{70C67A0C-DEC6-4219-9B13-99E844755F4E} = {51E484BA-7E08-4975-9311-A36B27B56CB1}
+		{B620168D-0003-4156-932E-6B0745DDFF67} = {51E484BA-7E08-4975-9311-A36B27B56CB1}
+		{00B19367-B001-401B-A622-9325A11ED356} = {51E484BA-7E08-4975-9311-A36B27B56CB1}
+		{6EFEDFA9-8D3C-4B73-9AC8-F5CE2BD6D83F} = {7F3D88BB-D8C8-42AC-9FD8-39C2D36A9E68}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {916C1B80-5FA1-43A3-9B10-1B5135BA3DE4}
+	EndGlobalSection
+EndGlobal

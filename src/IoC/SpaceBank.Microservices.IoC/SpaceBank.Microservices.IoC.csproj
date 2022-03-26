@@ -1,0 +1,22 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net6.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="MediatR.Extensions.Microsoft.DependencyInjection" Version="10.0.1" />
+    <PackageReference Include="Microsoft.Extensions.Configuration.Abstractions" Version="6.0.0" />
+    <PackageReference Include="Microsoft.Extensions.DependencyInjection" Version="6.0.0" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\..\EventBus\SpaceBank.Microservices.EventBus.Domain\SpaceBank.Microservices.EventBus.Domain.csproj" />
+    <ProjectReference Include="..\..\EventBus\SpaceBank.Microservices.EventBus.RabbitMQ\SpaceBank.Microservices.EventBus.RabbitMQ.csproj" />
+    <ProjectReference Include="..\..\Services\Banking\SpaceBank.Microservices.Banking.Application\SpaceBank.Microservices.Banking.Application.csproj" />
+    <ProjectReference Include="..\..\Services\Transfer\SpaceBank.Microservices.Transfer.Application\SpaceBank.Microservices.Transfer.Application.csproj" />
+  </ItemGroup>
+
+</Project>

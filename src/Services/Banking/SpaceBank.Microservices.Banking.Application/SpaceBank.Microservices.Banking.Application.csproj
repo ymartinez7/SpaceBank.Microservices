@@ -1,0 +1,14 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net6.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\SpaceBank.Microservices.Banking.Domain\SpaceBank.Microservices.Banking.Domain.csproj" />
+    <ProjectReference Include="..\SpaceBank.Microservices.Banking.Infra\SpaceBank.Microservices.Banking.Infra.csproj" />
+  </ItemGroup>
+
+</Project>
